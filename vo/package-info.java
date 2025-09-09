@@ -9,11 +9,11 @@
  * <p>
  * <strong>구성 요소:</strong>
  * <ul>
- *     <li>{@link PersonVO} - 모든 사용자 및 직원 데이터의 기본 정보 (예: 이름)를 정의하는 추상 클래스.</li>
- *     <li>{@link EmployeeVO} - 직원 데이터를 정의하는 클래스이며, {@link PersonVO}를 상속받아 사번과 기본 정보를 포함.</li>
- *     <li>{@link FulltimeVO} - 정규직 직원의 데이터를 정의하며, {@link EmployeeVO}를 상속받아 실적, 월급 등의 추가 정보를 관리.</li>
- *     <li>{@link ParttimeVO} - 시간제 근무 직원 데이터를 정의하며, {@link EmployeeVO}를 상속받아 시급, 근무 시간 등을 관리.</li>
- *     <li>{@link StudentVO} - 학생 데이터를 정의하며, {@link PersonVO}를 상속받아 학번, 성적 등 학생 관련 추가 정보를 포함.</li>
+ *     <li>{@link vo.PersonVO} - 모든 사용자 및 직원 데이터의 기본 정보 (예: 이름)를 정의하는 추상 클래스.</li>
+ *     <li>{@link vo.EmployeeVO} - 직원 데이터를 정의하는 클래스이며, {@link vo.PersonVO}를 상속받아 사번과 기본 정보를 포함.</li>
+ *     <li>{@link vo.FulltimeVO} - 정규직 직원의 데이터를 정의하며, {@link vo.EmployeeVO}를 상속받아 실적, 월급 등의 추가 정보를 관리.</li>
+ *     <li>{@link vo.ParttimeVO} - 시간제 근무 직원 데이터를 정의하며, {@link vo.EmployeeVO}를 상속받아 시급, 근무 시간 등을 관리.</li>
+ *     <li>{@link vo.StudentVO} - 학생 데이터를 정의하며, {@link vo.PersonVO}를 상속받아 학번, 성적 등 학생 관련 추가 정보를 포함.</li>
  * </ul>
  * </p>
  *
