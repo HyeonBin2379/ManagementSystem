@@ -4,7 +4,7 @@
  * <p>
  * <strong>구성 요소:</strong>
  * <ul>
- *     <li>{@link DBUtil} - 데이터베이스 연결 관리 및 드라이버 로딩을 위한 유틸리티 클래스.</li>
+ *     <li>{@link util.DBUtil} - 데이터베이스 연결 관리 및 드라이버 로딩을 위한 유틸리티 클래스.</li>
  *     <li>dbinfo.properties - 데이터베이스 접속 정보 (드라이버, URL, 사용자 정보, 비밀번호)를 포함한 설정 파일.</li>
  * </ul>
  * </p>
